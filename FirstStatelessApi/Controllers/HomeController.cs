@@ -14,6 +14,10 @@ namespace FirstStatelessApi.Controllers
         {
             return View();
         }
+        public ActionResult IndexTest()
+        {
+            return View();
+        }
 
         // GET: HomeController/Details/5
         public ActionResult Details(int id)
